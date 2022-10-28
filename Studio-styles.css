@@ -1,0 +1,719 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-color: #F1F1F1;
+}
+
+.head ul {
+    display: flex;
+}
+
+.head {
+    display: flex;
+}
+
+.descript {
+    display: flex;
+    border: 2px dashed gray;
+    padding-top: 212px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 950px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 294px;
+}
+
+.block ul {
+    display: flex;
+}
+
+.what-we-do {
+    display: flex;
+    margin-left: 432px;
+    margin-bottom: 334px;
+}
+
+.heading {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-bottom: 16px;
+}
+
+.paragraph {
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.list-1 {
+    margin-top: 30px;
+    margin-bottom: 26px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.list-1 li:first-child {
+    list-style-type: none;
+}
+
+.list-1 li:last-child {
+    font-size: 24px;
+    font-family: Helvetica;
+}
+
+.list-1 li:last-child::marker {
+    font-size: 50px;
+}
+
+.list-2 {
+    margin-top: 30px;
+    margin-bottom: 26px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    list-style-type: none;
+}
+
+.list-1 li:first-child {
+    padding-right: 433px;
+}
+
+.list-2 li {
+    padding-right: 96px;
+}
+
+.header {
+    background-image: url(img/Lighting_bolt.png), url(img/insite.png);
+    background-repeat: no-repeat, repeat-x;
+    background-position: left 116px top, bottom 50px left;
+}
+
+.par-main {
+    display: flex;
+    padding-left: 100px;
+}
+
+.par-1 {
+    width: 474px;
+    line-height: 20.8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    margin-right: 46px;
+}
+
+.par-2 {
+    width: 474px;
+    line-height: 20.8px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.head-1 {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    mix-blend-mode: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-bottom: 61px;
+}
+
+.head-2 {
+    max-width: 384px;
+    background: #FF1A1A;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-left: 0;
+    height: 114px;
+}
+
+.head-3 {
+    max-width: 653px;
+    background: #FF1A1A;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin-bottom: 125px;
+    height: 114px;
+    margin-top: -35px;
+}
+
+.text {
+    margin: 0;
+    justify-content: flex-start;
+}
+
+.hr-upper {
+    margin-left: 180px;
+    margin-right: 180px;
+    width: initial;
+}
+
+.about {
+    font-family: 'IBM Plex Mono';
+    font-size: 96px;
+    line-height: 115px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-top: 402px;
+    padding-left: 440px;
+    margin-left: 0;
+}
+
+.hr-medium {
+    margin-left: 432px;
+    margin-top: 46px;
+    margin-bottom: 46px;
+    width: initial;
+}
+
+.projects {
+    font-family: 'IBM Plex Mono';
+    font-size: 96px;
+    line-height: 115px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-bottom: 88px;
+}
+
+.project {
+    padding-left: 195px;
+    padding-right: 180px;
+}
+
+.list-3 {
+    margin: 0;
+    list-style-type: none;
+    margin-left: -57px;
+    padding-left: 0;
+}
+
+.list-3 li {
+    margin: 0;
+    padding-bottom: 161px;
+}
+
+.block ul li {
+    list-style-type: none;
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    mix-blend-mode: normal;
+    margin: 0;
+    padding-right: 40px;
+    padding-bottom: initial;
+}
+
+.block ul {
+    padding-left: 0;
+    padding-bottom: 6px;
+    list-style-type: none;
+}
+
+.address {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 73px;
+    color: #000000;
+    mix-blend-mode: normal;
+    padding-bottom: 16px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    padding-left: 352px;
+}
+
+.numbers {
+    margin: 0;
+}
+
+.numbers ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.image {
+    width: 224px;
+    padding-bottom: 130px;
+}
+
+hr {
+    width: 1025px;
+}
+
+.to_contact {
+    font-family: 'IBM Plex Mono';
+    font-size: 96px;
+    line-height: 115px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+
+.contacts {
+    font-family: 'IBM Plex Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 67px;
+    color: #000000;
+}
+
+.contacts ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.burger-menu {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .head {
+        display: none;
+    }
+
+    .descript {
+        border: none;
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .header {
+        background-size: 400px 585px, 720px 175px;
+        background-position: left 18px top 0px, bottom 30px left 0px;
+    }
+
+    .hr-upper {
+        display: none;
+    }
+
+    .about {
+        order: 2;
+        font-size: 48px;
+        line-height: 58px;
+        padding-top: 0;
+        padding-left: 26px;
+    }
+
+    .text {
+        margin-left: 332px;
+        margin-top: 294px;
+    }
+
+    .text-1 {
+        order: 3;
+    }
+
+    .head-1 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        padding-bottom: 6px;
+    }
+
+    .head-2 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        height: 37px;
+        width: 168px;
+    }
+
+    .head-3 {
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 36px;
+        height: 37px;
+        width: 286px;
+        margin-top: -15px;
+        margin-bottom: 236px;
+    }
+
+    .par-1 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        width: 334px;
+    }
+
+    .par-2 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        width: 334px;
+    }
+
+    .par-main {
+        padding-left: 26px;
+    }
+
+    .text-1 {
+        margin-left: 0;
+    }
+
+    .hr-medium {
+        margin-left: 26px;
+        margin-right: 26px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .what-we-do {
+        flex-wrap: wrap;
+        margin-left: 26px;
+        margin-bottom: 104px;
+    }
+
+    .paragraph {
+        width: 334px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .heading {
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .paragraph-1 {
+        margin: 0;
+    }
+
+    .paragraph-2 {
+        margin: 0;
+        margin-left: 32px;
+    }
+
+    .paragraph-3 {
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    .project {
+        margin-left: 26px;
+        padding-left: 0;
+    }
+
+    .projects {
+        font-size: 48px;
+        line-height: 58px;
+    }
+
+    .container {
+        padding-left: 124px;
+    }
+
+    .image {
+        width: 173px;
+        padding-bottom: 115px;
+    }
+
+    .address {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 55px;
+    }
+
+    .block ul li {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .list-3 li {
+        padding-bottom: 131px;
+    }
+
+    .to_contact {
+        font-size: 48px;
+        line-height: 58px;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .contacts ul {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .footer {
+        flex-direction: column;
+        margin-left: 26px;
+        padding-bottom: 160px;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+        background-size: 272px 398px, 420px 95px;
+        background-position: left -32px top -32px, bottom -10px left 0px;
+    }
+
+    .hr-upper {
+        display: block;
+        margin-left: 16px;
+        margin-right: 16px;
+        color: #000000;
+    }
+
+    .head {
+        display: flex;
+        padding-left: 196px;
+        padding-top: 17px;
+        padding-bottom: 17px;
+    }
+
+    .list-1 li:first-child {
+        display: none;
+    }
+
+    .list-1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .list-2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        display: inline;
+        margin: 0;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .head ul {
+        display: inline;
+    }
+
+    .block-menu {
+        display: none;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        position: absolute;
+        background-color: #F1F1F1;
+        margin: 0;
+    }
+
+    .menu:hover .block-menu {
+        display: block;
+    }
+
+    .menu {
+        position: relative;
+        margin: 0;
+        margin-right: 16px;
+    }
+
+    .head-1 {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .descript {
+        margin-left: 42px;
+        margin-top: 147px;
+    }
+
+    .text {
+        margin-left: 83px;
+        margin-top: 0;
+    }
+
+    .head-2 {
+        font-size: 18px;
+        line-height: 23px;
+        width: 108px;
+        height: 24px;
+    }
+
+    .head-3 {
+        font-size: 18px;
+        line-height: 23px;
+        width: 184px;
+        height: 24px;
+        margin-bottom: 56px;
+        margin-top: -12px;
+    }
+
+    .about {
+        padding-left: 0;
+        font-size: 35.8326px;
+        line-height: 43px;
+        margin-bottom: 24px;
+    }
+
+    .par-main {
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .par-1 {
+        margin-right: 0;
+        margin-bottom: 16px;
+        font-size: 13.9349px;
+        line-height: 23px;
+    }
+
+    .par-2 {
+        font-size: 13.9349px;
+        line-height: 23px;
+    }
+
+    .hr-medium {
+        margin-top: 52px;
+        margin-bottom: 40px;
+        margin-right: 0;
+    }
+
+    .paragraph {
+        padding-bottom: 32px;
+    }
+
+    .paragraph-2 {
+        margin-left: 0;
+    }
+
+    .paragraph-3 {
+        margin-top: 0;
+    }
+
+    .what-we-do {
+        margin-bottom: 121px;
+    }
+
+    .projects {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .project {
+        margin-left: 16px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .container {
+        padding-left: 0;
+        background-image: url(img/01.png), url(img/02.png), url(img/03.png), url(img/04.png), url(img/05.png);
+        background-position: 95% 0%, 95% 25%, 95% 50%, 95% 75%, 95% 100%;
+        background-repeat: no-repeat;
+        background-size: 84px;
+    }
+
+    .numbers {
+        display: none;
+        order: 2;
+    }
+
+    .address {
+        font-size: 24px;
+        line-height: 37px;
+    }
+
+    .list-3 {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .list-3 li {
+        padding-bottom: 59px;
+    }
+
+    hr {
+        width: 100%;
+    }
+
+    .image {
+        width: 87px;
+        padding-bottom: 85px;
+    }
+
+    .block {
+        width: 100%;
+    }
+
+    .list-3 li:last-child {
+        padding-bottom: 0;
+    }
+
+    .footer {
+        margin-top: 88px;
+        margin-left: 16px;
+        padding-bottom: 104px;
+    }
+
+    .to_contact {
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .contacts ul {
+        font-size: 24px;
+        line-height: 33px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .contacts {
+        margin-left: 0;
+    }
+}
